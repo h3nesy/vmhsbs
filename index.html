@@ -76,8 +76,33 @@
 </html>
 
 <script>
-const mondayCells = document.querySelectorAll(".containerle tab tbody tr:nth-child(1) td");
+const wednesdayCells = document.querySelectorAll(".container table tbody tr:nth-child(3) td");
+for (let cell of wednesdayCells) {
+    cell.style.backgroundColor = "#fffacd";
+}
+
+const mondayCells = document.querySelectorAll(".container table tbody tr:nth-child(1) td");
 for (let cell of mondayCells) {
     cell.style.backgroundColor = "#fffacd";
+}
+
+const fridayCells = document.querySelectorAll(".container table tbody tr:nth-child(5) td");
+for (let cell of fridayCells) {
+    cell.style.backgroundColor = "#fffacd";
+}
+
+const saturdayCells = document.querySelectorAll(".container table tbody tr:nth-child(6) td");
+for (let cell of saturdayCells) {
+    cell.style.backgroundColor = "#fffacd";
+}
+
+const tuesdayCells = document.querySelectorAll(".container table tbody tr:nth-child(2) td");
+for (let cell of tuesdayCells) {
+    cell.style.backgroundColor = "#FF0000";
+}
+
+const ThursdayCells = document.querySelectorAll(".container table tbody tr:nth-child(4) td");
+for (let cell of ThursdayCells) {
+    cell.style.backgroundColor = "#FF0000";
 }
 </script>
